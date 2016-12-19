@@ -16,6 +16,8 @@ We will be using python 2.7 along with the following packages for the demos. The
   * http://scikit-learn.org/stable/install.html
 7. h5py
   * http://docs.h5py.org/en/latest/build.html
+8. NLTK
+  * http://www.nltk.org/install.html
 
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
