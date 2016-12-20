@@ -18,6 +18,12 @@ We will be using python 2.7 along with the following packages for the demos. The
   * http://docs.h5py.org/en/latest/build.html
 8. NLTK
   * http://www.nltk.org/install.html
+  * Once you have nltk installed, launch python from the terminal and type
+  ```
+  import nltk
+  nltk.download()
+  ```
+  This will open up a GUI, then click download to get the necessary nltk data for using the stop words. 
 
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
