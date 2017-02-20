@@ -3,8 +3,11 @@
 We will be using python 2.7 along with the following packages for the demos. The following packages will need to be installed:
 
 1. TensorFlow
+  * CPU version `pip install tensorflow`
+  * GPU version `pip install tensorflow-gpu`
   * https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
 2. Keras
+  * `sudo pip install keras`
   * https://keras.io/#installation
 3. TF-Learn
   * http://tflearn.org/installation/
@@ -23,7 +26,7 @@ We will be using python 2.7 along with the following packages for the demos. The
   import nltk
   nltk.download()
   ```
-  This will open up a GUI, then click download to get the necessary nltk data for using the stop words. 
+  This will open up a GUI, then click download to get the necessary nltk data for using the stop words.
 
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
