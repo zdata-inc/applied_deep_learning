@@ -9,17 +9,15 @@ We will be using python 2.7 along with the following packages for the demos. The
 2. Keras
   * `sudo pip install keras`
   * https://keras.io/#installation
-3. TF-Learn
-  * http://tflearn.org/installation/
-4. Gensim
+3. Gensim
   * https://radimrehurek.com/gensim/install.html
-5. Scikit-Image
+4. Scikit-Image
   * http://scikit-image.org/docs/dev/install.html
-6. Scikit-Learn
+5. Scikit-Learn
   * http://scikit-learn.org/stable/install.html
-7. h5py
+6. h5py
   * http://docs.h5py.org/en/latest/build.html
-8. NLTK
+7. NLTK
   * http://www.nltk.org/install.html
   * Once you have nltk installed, launch python from the terminal and type
   ```
