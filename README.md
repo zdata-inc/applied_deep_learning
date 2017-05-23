@@ -2,7 +2,7 @@
 
 We will be using Python 3.x along with the following packages for the demos. The following packages will need to be installed:
 
-*Windows Users* Tensorflow only installs on python 3.5, the best way to aquire this is to download the appropriate Anaconda version. https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe
+**Windows Users:** Tensorflow only installs on python 3.5, the best way to aquire this is to download the appropriate Anaconda version. https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe
 
 1. TensorFlow
   * CPU version `pip install tensorflow`
