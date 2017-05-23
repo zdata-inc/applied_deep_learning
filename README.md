@@ -21,7 +21,7 @@ We will be using Python 3.x along with the following packages for the demos. The
   * http://docs.h5py.org/en/latest/build.html
 7. PyEMD
   * `pip install pyemd`
-  * https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe
+  * https://github.com/wmayner/pyemd
 
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
