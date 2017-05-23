@@ -25,6 +25,7 @@ We will be using Python 3.x along with the following packages for the demos. The
 7. PyEMD
   * `pip install pyemd`
   * https://github.com/wmayner/pyemd
+  * May have to install Visual Studio 2015 build tools if you are on windows. http://landinghub.visualstudio.com/visual-cpp-build-tools
 
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
