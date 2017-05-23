@@ -12,10 +12,13 @@ We will be using Python 3.x along with the following packages for the demos. The
   * `pip install keras`
   * https://keras.io/#installation
 3. Gensim
+  * `pip install gensim`
   * https://radimrehurek.com/gensim/install.html
 4. Scikit-Image
+  * `pip install scikit-image`
   * http://scikit-image.org/docs/dev/install.html
 5. Scikit-Learn
+  * `pip install scikit-learn`
   * http://scikit-learn.org/stable/install.html
 6. h5py
   * http://docs.h5py.org/en/latest/build.html
