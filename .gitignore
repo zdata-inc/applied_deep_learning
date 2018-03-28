@@ -1,0 +1,3 @@
+.ipynb_checkpoints/
+data/dbpedia/*
+dbpedia_w2v_model
