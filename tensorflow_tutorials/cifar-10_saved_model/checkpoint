@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/florian/Euler/MinerKasch/applied_deep_learning/tensorflow_tutorials/cifar-10_saved_model/cifar10-cnn.ckpt"
+all_model_checkpoint_paths: "/media/florian/Euler/MinerKasch/applied_deep_learning/tensorflow_tutorials/cifar-10_saved_model/cifar10-cnn.ckpt"
