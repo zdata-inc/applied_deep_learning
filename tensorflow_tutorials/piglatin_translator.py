@@ -5,6 +5,8 @@ import string
 import numpy as np
 import tensorflow as tf
 
+max_word_length = 12
+
 #parser = argparse.ArgumentParser(description='Kaggle DSB2018 Training')
 #parser.add_argument('--phrase', default='piglatin', type=str, 
 #                    help='which english phrase to translate into pig latin')
@@ -16,13 +18,18 @@ chars = string.ascii_letters + '>_'
 char2idx = {ch: i for i, ch in enumerate(chars)}
 idx2char = {i: ch for i, ch in enumerate(chars)}
 
+def pad_front(some_word):
+    while len(some_word) < max_word_length:
+        some_word = '_' + some_word
+        
+    return some_word
+
 def load_graph(graph_flnm):
     with tf.gfile.GFile(graph_flnm, 'rb') as f:
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(f.read())
 
     with tf.Graph().as_default() as graph:
-        
         # the prefix will be import by default, so we'll give it something meaningful
         tf.import_graph_def(graph_def, name='enc-dec')
 
@@ -45,6 +52,8 @@ with tf.Session(graph=graph) as sess:
     
         output_translation = []
         for word in eng_phrase.split():
+
+            word = pad_front(word)
         
             val_input = [char2idx[c] for c in word]
             val_input = np.asarray(val_input).reshape(1, len(val_input))
