@@ -30,3 +30,5 @@ We will be using Python 3.x along with the following packages for the demos. The
 The packages above should take care of installing things like numpy and scipy. If you run into any problems where those need to be installed first then, install each of those first.
 
 http://scipy.org/install.html
+
+.
